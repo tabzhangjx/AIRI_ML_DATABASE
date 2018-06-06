@@ -1,12 +1,12 @@
 import pymysql
   
 # 创建连接
-conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='tab15963', db='RUNOOB', charset='utf8')
+conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='tab123456', db='IAIR_1', charset='utf8')
 # 创建游标
 cursor = conn.cursor()
 
 if(cursor):
-	print("successfully connetc RUNOOB")
+	print("successfully connetc BASENAME")
 # 执行SQL，并返回收影响行数
 #effect_row = cursor.execute("select * from tb7")
 
